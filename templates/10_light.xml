@@ -1,0 +1,81 @@
+<template date="" Author="Suresh" version="2" engine="generic" name="Vertical 1" id="10">
+<layers>
+	<layer>
+		<type>TEXT</type>
+		<sequence>1</sequence>
+		<text>SCHOOL_NICK_NAME</text>
+		<font>CollegiateInsideFLF.ttf</font>
+		<color>SCHOOL_OTHER_COLOR</color>
+		<characterSpacing> -2 </characterSpacing>
+		<backgound_color>transparent</backgound_color>
+		<position>
+			<x>0.5</x>
+			<y>8.571428571</y>
+		</position>	
+		<size>
+			<width>114</width>
+			<height>15.952380952</height>
+		</size>
+		<rotation>90</rotation>
+		<gravity>NorthEast</gravity>
+	</layer>
+	<layer>
+		<type>IMAGE</type>
+		<sequence>2</sequence>
+		<name>School Mascot</name>
+		<path>SCHOOL_MASCOT_IMAGE</path>
+		<is_monochrome>monochrome flag</is_monochrome>
+		<color>SCHOOL_DARK_COLOR</color>
+		<position>
+			<x>10</x>
+			<y>8.571428571</y>
+		</position>
+		<size>
+			<width>40</width>
+			<height>31.571428571</height>
+		</size>
+		<gravity>NorthEast</gravity>
+	</layer>
+	<layer>
+		<type>TEXT</type>
+		<sequence>3</sequence>
+		<text>SCHOOL_MASCOT</text>
+		<font>CollegiateInsideFLF.ttf</font>
+		<characterSpacing> -2 </characterSpacing>
+		<color>SCHOOL_DARK_COLOR</color>
+		<backgound_color>transparent</backgound_color>
+		<position>
+			<x>-3</x>
+			<y>10.476190476</y>
+			<dist_sequence_x>1</dist_sequence_x>
+			<dist_sequence_y>2</dist_sequence_y>
+		</position>
+		<size>
+			<width>70</width>
+			<height>12.523809524</height>
+		</size>
+		<rotation>90</rotation>
+		<gravity>NorthEast</gravity>
+	</layer>
+	<layer>
+		<type>TEXT</type>
+		<sequence>4</sequence>
+		<text>SCHOOL_YEAR</text>
+		<year_article>EST</year_article>
+		<font>CollegiateInsideFLF.ttf</font>
+		<color>SCHOOL_OTHER_COLOR</color>
+		<backgound_color>transparent</backgound_color>
+		<position>
+			<x>-1</x>
+			<y>10.476190476</y>
+			<dist_sequence_x>1_3</dist_sequence_x>
+			<dist_sequence_y>2</dist_sequence_y>
+		</position>
+		<size>
+			<width>100</width>
+			<height>5.50952381</height>
+		</size>
+		<rotation>90</rotation>
+	</layer>
+</layers>
+</template>

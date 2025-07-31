@@ -1,0 +1,80 @@
+<template date="" Author="" version="2" engine="generic" name="LargeType1" id="12">
+<layers>
+   <layer>
+		<type>TEXT</type>
+		<sequence>1</sequence>
+		<text>SCHOOL_INITIAL</text>
+		<font>CollegiateInsideFLF.ttf</font>
+		<color>SCHOOL_DARK_COLOR</color>
+		<backgound_color>transparent</backgound_color>
+		<position>
+			<x>0</x>
+			<y>1.123809524</y>
+		</position>	
+		<size>
+			<width>93</width>
+			<height>30.60952381</height>
+		</size>
+		<characterSpacing>10</characterSpacing>
+		<arc>-distort Arc 15</arc>
+		<gravity>North</gravity>
+	</layer>
+	<layer>
+		<type>IMAGE</type>
+		<sequence>2</sequence>
+		<name>School Mascot</name>
+		<path>SCHOOL_MASCOT_IMAGE</path>
+		<is_monochrome>monochrome flag</is_monochrome>
+		<color>SCHOOL_OTHER_COLOR</color>
+		<position>
+			<x>0</x>
+			<y>32.64761905</y>
+		</position>
+		<size>
+			<width>100</width>
+			<height>47.61904762</height>
+		</size>
+		<canvas>
+			<width>100</width>
+			<height>47.61904762</height>
+			<align>Center</align>
+		</canvas>
+	</layer>
+	<layer>
+		<type>TEXT</type>
+		<sequence>3</sequence>
+		<text>SCHOOL_MASCOT_WITH_ARTICLE</text>
+		<font>CollegiateInsideFLF.ttf</font>
+		<color>SCHOOL_DARK_COLOR</color>
+		<backgound_color>transparent</backgound_color>
+		<position>
+			<x>0</x>
+			<y>80.57142857</y>
+		</position> 
+		<size>
+			<width>93</width>
+			<height>11.86666667</height>
+		</size>
+		<arc>-rotate 180 -distort Arc "15 180"</arc>
+		<gravity>North</gravity>
+	</layer>
+   <layer>
+		<type>TEXT</type>
+		<sequence>4</sequence>
+		<text>SCHOOL_YEAR</text>
+		<year_article>EST</year_article>
+		<font>CollegiateInsideFLF.ttf</font>
+		<color>SCHOOL_OTHER_COLOR</color>
+		<backgound_color>transparent</backgound_color>
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<size>
+			<width>100</width>
+			<height>4.428571429</height>
+		</size>
+		<gravity>South</gravity>
+	</layer>
+</layers>
+</template>

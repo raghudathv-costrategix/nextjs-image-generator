@@ -1,0 +1,56 @@
+<template date="" Author="" version="2" engine="generic" name="Swirl" id="11">
+<layers>
+   <layer>
+		<type>IMAGE</type>
+		<sequence>1</sequence>
+		<name>SWRIL</name>
+		<is_monochrome>monochrome flag</is_monochrome>
+		<position>
+			<x>0</x>
+			<y>0</y>
+		</position>
+		<size>
+			<width>100</width>
+			<height>100</height>
+		</size>
+		<gravity>North</gravity>
+		<color>SCHOOL_OTHER_COLOR</color>
+	</layer>
+	<layer>
+		<type>TEXT</type>
+		<sequence>2</sequence>
+		<text>SCHOOL_NAME</text>
+		<font>edwardianscriptitc.ttf</font>
+		<fontStyle>UCASEWORDS</fontStyle>
+		<color>SCHOOL_DARK_COLOR</color>
+		<backgound_color>transparent</backgound_color>
+		<position>
+			<x>76.42857143</x>
+			<y>3</y>
+		</position>	
+		<size>
+			<width>100</width>
+			<height>22.4</height>
+		</size>
+		<rotation>90</rotation>
+		<gravity>NorthWest</gravity>
+	</layer>
+	<layer>
+		<type>IMAGE</type>
+		<sequence>3</sequence>
+		<name>School Mascot</name>
+		<path>SCHOOL_MASCOT_IMAGE</path>
+		<is_monochrome>monochrome flag</is_monochrome>
+		<color>SCHOOL_DARK_COLOR</color>
+		<position>
+			<x>31.71428571</x>
+			<y>30</y>
+		</position>
+		<size>
+			<width>46.86</width>
+			<height>34.13333333</height>
+		</size>
+		<gravity>NorthEast</gravity>
+	</layer>
+</layers>
+</template>
