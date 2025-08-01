@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* Utility classes */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

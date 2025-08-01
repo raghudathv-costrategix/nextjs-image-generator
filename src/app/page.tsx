@@ -1,34 +1,50 @@
+'use client';
+
 import ImageGenerator from './components/ImageGeneratorFixed';
-import Link from 'next/link';
+import AppLayout from './components/AppLayout';
 
 export default function Home() {
   return (
-    <div className="font-sans min-h-screen p-8 bg-white dark:bg-gray-900">
-      <main className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-4 text-center text-gray-900 dark:text-white">Image Text Generator</h1>
-        
-        <div className="text-center mb-8">
-          <div className="flex justify-center gap-4 flex-wrap mb-4">
-            <Link 
-              href="/bulk-generate" 
-              className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-            >
-              🚀 Generate 1000 Images
-            </Link>
-            <Link 
-              href="/xml-parser"
-              className="inline-block px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
-            >
-              📄 XML Parser
-            </Link>
-          </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            Generate images with text and overlays, or parse XML template files
+    <AppLayout>
+      <div className="max-w-4xl">
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            ✨ Single Image Generator
+          </h2>
+          <p className="text-lg text-gray-600 dark:text-gray-300">
+            Create custom images with text and image overlays. Perfect for social media posts, banners, and marketing materials.
           </p>
         </div>
-        
-        <ImageGenerator />
-      </main>
-    </div>
+
+        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+          <div className="bg-gradient-to-r from-blue-500 to-purple-600 p-6">
+            <h3 className="text-xl font-bold text-white">Interactive Generator</h3>
+            <p className="text-blue-100 mt-2">Upload images, add text, and customize your design</p>
+          </div>
+          <div className="p-6">
+            <ImageGenerator />
+          </div>
+        </div>
+
+        {/* Features Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+            <div className="text-3xl mb-3">🖼️</div>
+            <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Multiple Formats</h4>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Support for JPG, PNG, and various image formats</p>
+          </div>
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+            <div className="text-3xl mb-3">🎯</div>
+            <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Precise Control</h4>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Fine-tune positioning, colors, and effects</p>
+          </div>
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+            <div className="text-3xl mb-3">⚡</div>
+            <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Real-time Preview</h4>
+            <p className="text-sm text-gray-600 dark:text-gray-400">See changes instantly as you design</p>
+          </div>
+        </div>
+      </div>
+    </AppLayout>
   );
 }
